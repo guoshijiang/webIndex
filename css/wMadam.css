@@ -1,0 +1,261 @@
+/*S 主体板块*/
+.main {
+    width: 100%;
+}
+/*S 大图板块*/
+.main .bigimg {
+    width: 1000px;
+    height: 460px;
+    margin-bottom: 24px;
+    position: relative;
+    overflow: hidden;
+}
+.main .bigimg ul {
+    width: 5000px;
+    position: absolute;
+}
+.main .bigimg ul li {
+    float: left;
+}
+.wpoint a {
+    position: absolute;
+    top: 50%;
+    background-color: #000000;
+    margin-top: -25px;
+    width: 50px;
+    height: 50px;
+    font : 800 46px/50px "simsun";
+    text-align: center;
+    opacity: 0.3;
+    color : #ffffff;
+    display: none;
+}
+.wpoint .wpal {
+    position: absolute;
+    left: 0 ;
+}
+.wpoint .wpar {
+    position: absolute;
+    right: 0 ;
+}
+/*E 大图板块*/
+
+/*S 品牌推荐板块*/
+.main .favorite {
+    width: 1000px;
+    height: 326px;
+    margin-bottom: 60px;
+}
+.favorite_title {
+    height: 47px;
+}
+.favorite_title_l {
+    padding-top: 11px;
+}
+.favorite_title_r a{
+    display: inline-block;
+    background: url(../wImage/more.png) no-repeat right;
+    width: 85px;
+    height: 45px;
+    font : 700 13px/63px "microsoft yahei";
+    color : black;
+}
+.favorite_title_r a:hover {
+    color: rgb(255,0,0);
+}
+.favorite_brand {
+    height: 279px;
+    box-shadow: 0px 2px 16px 4px #a7a7a7;
+    padding: 18px 9px 0 9px;
+}
+
+.favorite_brand_ul li {
+    float: left;
+    margin-right: 19px;
+    position: relative;
+    height: 240px;
+    width: 181px;
+    overflow: hidden;
+}
+.favorite_brand_ul li.last_li{
+    margin-right: 0;
+}
+.favorite_brand_ul li .styCol {
+    display: block;
+    height: 240px;
+    width: 100%;
+    background : #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 240px;
+    text-align: center;
+    opacity: 0.5;
+}
+.favorite_brand_ul li .styCol span{
+    color: #fff;
+    font-size: 24px;
+}
+/*E 品牌推荐板块*/
+
+/*S 商品分类板块*/
+.wcategory {
+    width: 1000px;
+    height: 355px;
+    margin-bottom: 45px;
+}
+.wcategory_title {
+    height: 35px;
+}
+.wcategory_content {
+    height: 310px;
+    box-shadow: 0px 2px 16px 4px #a7a7a7;
+    padding-top: 10px;
+    background: #ffffff;
+}
+.wcategory_content ul li {
+    width: 245px;
+    height: 148px;
+    float: left;
+    border-right: 1px dashed #9c9c9c;
+    margin-bottom: 2px;
+    position: relative;
+}
+.wcategory_content ul li.go_line {
+    border: 0;
+}
+.wcategory_content li img {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+.wcategory_content ul li dl {
+    position: absolute;
+    left: 60px;
+    top: 11px;
+    width: 170px;
+}
+.wcategory_content ul li dl dt {
+    margin-bottom: 2px;
+}
+.wcategory_content ul li dl dt a {
+    display: inline-block;
+    height: 24px;
+    padding: 0 4px;
+    font: 900 14px/24px "microsoft yahei";
+    color: #000;
+}
+.wcategory_content ul li dl dd {
+    float: left;
+}
+.wcategory_content ul li dl dd a {
+    display: inline-block;
+    height: 20px;
+    padding : 0 5px;
+    color: #000000;
+    font : 12px/20px "microsoft yahei";
+    text-align: center;
+    margin: 0 6px 4px 0;
+}
+.wcategory_content ul li dl a:hover {
+    background: rgb(223,26,34);
+    color: #ffffff;
+}
+/*E 商品分类板块*/
+
+/*S 带背景板块*/
+.have_bg {
+    width: 100%;
+    background-color: rgb(230,230,230);
+    padding-bottom: 30px;
+}
+/*S 女士箱包板块*/
+.handbags {
+    width: 1000px;
+    height: 736px;
+    background-color: #fff;
+    box-shadow: 0px 2px 16px 4px #a7a7a7;
+    margin-bottom: 60px;
+}
+.handbags_t {
+    height: 90px;
+}
+.handbags_t_r {
+    height: 90px;
+    background: url(../wImage/more.png) no-repeat right 0;
+    position: relative;
+}
+.handbags_t_r ul {
+    margin-top : 36px;
+    margin-right : 56px;
+}
+.handbags_t_r ul li {
+    float: left;
+    margin-right: 24px;
+}
+.handbags_t_r ul li a:hover {
+    color : rgb(178,130,71);
+}
+.handbags_t_r  .more {
+    position: absolute;
+    right: 12px;
+    top: 35px;
+    font : 800 13px "microsoft yahei";
+}
+.handbags_m {
+    height: 315px;
+    padding: 0 12px;
+}
+.handbags_m .bot {
+    margin-top : 9px;
+}
+.handbags_b {
+    height: 300px;
+    padding : 30px 0 0 8px;
+}
+.handbags_b ul li {
+    width: 183px;
+    height: 275px;
+    background-color: #fff;
+    float: left;
+    margin-right: 17px;
+}
+.handbags_b ul li.cancel_mar {
+    margin-right: 0 ;
+}
+.handbags_b ul li .commodity {
+    height: 213px;
+}
+.handbags_b ul li .classA img {
+    width: 183px;
+    height: 193px;
+}
+.handbags_b ul li .price_item {
+    width: 183px;
+    height: 62px;
+    text-align: center;
+    position: relative;
+}
+.handbags_b ul li .price_item .item {
+    padding-top:10px;
+}
+.handbags_b ul li .price_item .price {
+    padding-top: 6px;
+    color: rgb(223,51,56);
+    font: 400 14px "microsoft yahei";
+}
+.handbags_b ul li .price_item .item a:hover {
+    color : rgb(178,130,71);
+}
+.handbags_b ul li.add_shade {
+    box-shadow: 0px 4px 10px #a7a7a7;
+}
+.handbags_b ul li .price_item.bg_color {
+    background-color: #E0E0E0;
+}
+/*E 女士箱包板块*/
+/*E 带背景板块*/
+/*E 主体板块*/

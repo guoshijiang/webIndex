@@ -1,0 +1,637 @@
+
+
+.circle ol li.current {
+    background-color: #9790c3;
+}
+
+/*轮播图css部分start*/
+.j-main-slider {
+    width: 100%;
+    height: 520px;
+    position: relative;
+}
+
+.circle {
+    width: 100%;
+    /*height: 520px;*/
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.circle ul {
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 10000px;
+}
+
+.circle ul li {
+    float: left;
+
+}
+
+.circle ol {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    bottom: 10px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.circle ol li {
+    float: left;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    border-radius: 8px;
+    font: 400 16px/20px "microsoft yahei";
+    cursor: pointer;
+}
+
+.circle ol li.current {
+    background-color: #9790c3;
+}
+
+.j-arrow {
+    display: none;
+}
+
+.j-arrow a {
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 100px;
+    background-color: #eee;
+    margin-top: -50px;
+    font: 400 50px/100px "simsun";
+    background: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+.j-arrow a:hover {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.arrow-l {
+    left: 100px;
+}
+
+.arrow-r {
+    right: 100px;
+}
+/*轮播图css部分end*/
+
+/*t-flagship-start*/
+.title {
+    border-bottom: 1px solid #666;
+    text-align: center;
+}
+.title h2 {
+    font: 700 22px/30px "simsun";
+    color: #000;
+    display: inline-block;
+    width: 250px;
+    padding: 0 10px;
+    background-color: #fff;
+    position: relative;
+    top: 30px;
+}
+.t-shopping-brand {
+    margin-top: 40px;
+    cursor: pointer;
+}
+.t-shopping-brand li {
+    float: left;
+    position: relative;
+    width: 228px;
+    margin-left: 15px;
+}
+.t-shopping-brand li:first-child {
+    margin-left: 0;
+}
+.t-shopping-brand li img {
+    width: 100%;
+}
+.t-shopping-rad {
+    position: absolute;
+    bottom: 2px;
+    left: 50%;
+    margin-left: -90px;
+    width: 180px;
+    height: 55px;
+    background-color: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+.t-shopping-brand .t-shopping-rad img {
+    width: 80px;
+    margin: 5px 0 30px 0;
+}
+.t-shopping-brand .t-shopping-rad p {
+    font: 700 15px/20px "simsun";
+}
+.t-shopping-store {
+    margin-top: 10px;
+    overflow: hidden;
+    position: relative;
+    height: 198px;
+}
+.t-shopping-but {
+    float: right;
+    font: 700 16px/30px "simsun";
+}
+.t-shopping-but i {
+    cursor: pointer;
+}
+.t-shopping-store h3 {
+    font: 700 16px/30px "microsoft yahei";
+}
+.t-store-li {
+    width: 5000px;
+    position: absolute;
+    left: 0;
+}
+.t-store-li li{
+    width: 1200px;
+    float: left;
+}
+.t-store-li ol li {
+    width:188px;
+    border: 1px solid #ccc;
+    margin: 5px;
+    text-align: center;
+    padding: 5px 0;
+    position: relative;
+    cursor: pointer;
+}
+.t-store-li ol li img {
+    width: 65%;
+}
+.t-store-li-name {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:188px;
+    height: 72px;
+    background-color: #fff;
+    text-align: center;
+    font: 700 20px/72px "microsoft yahei";
+    /*border: 1px solid #000;*/
+    /*margin-top: -1px;*/
+    /*margin-left: -1px;*/
+    display: none;
+}
+.t-store-li-name span {
+    position: absolute;
+    background-color: #000;
+    display: none;
+}
+.t-store-li-name .t-line1 {
+    width: 0;
+    left: 0;
+    height: 1px;
+    top: -1px;
+}
+.t-store-li-name .t-line2 {
+    width: 1px;
+    right: -1px;
+    height: 0;
+    bottom: -1px;
+}
+.t-store-li-name .t-line3 {
+    width: 0;
+    right: -1px;
+    height: 1px;
+    bottom: -1px;
+}
+.t-store-li-name .t-line4 {
+    width: 1px;
+    left: -1px;
+    height: 0;
+    top: -1px;
+}
+.t-line {
+    width: 30px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    margin-left: -15px;
+}
+/*t-flagship-end*/
+
+
+/*t-hotsale-start*/
+.t-hotsale-buts {
+    margin-top: 40px;
+}
+.t-hotsale-buts button {
+    width: 390px;
+    height: 30px;
+    background-color: #999;
+    color: #fff;
+    font: 700 14px/30px "simsun";
+    cursor: pointer;
+}
+.t-hotsale-buts button:hover {
+    background-color: #333;
+}
+.t-hotsale-buts .t-hotsale-current {
+    background-color: #333;
+}
+.t-hotsale-buts li {
+    float: left;
+    margin-left: 15px;
+}
+.t-hotsale-buts li:first-child {
+    margin-left: 0;
+}
+.t-hotsale-con {
+    margin-top: 15px;
+    height: 507px;
+    overflow: hidden;
+    position: relative;
+}
+.t-hotsale-con ul {
+    width: 4000px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.t-hotsale-con ul li {
+    float: left;
+}
+.t-hotsale-con-l {
+    float: left;
+    width: 360px;
+}
+.t-hotsale-con-l img {
+    width: 100%;
+}
+.t-hotsale-con-r {
+    float: right;
+    width: 840px;
+    height: 507px;
+}
+.t-hotsale-con-r .t-icon {
+    float: left;
+    margin-left: 10px;
+    position: relative;
+    text-align: center;
+}
+.t-icon1 {
+    width: 218px;
+    height: 247px;
+    border: 1px solid #ccc;
+}
+.t-icon2 {
+    width: 368px;
+    height: 247px;
+    border: 1px solid #ccc;
+}
+.t-icon4 {
+    width: 268px;
+    height: 246px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+.t-hotsale-con-r .t-icon-p {
+    position: absolute;
+    width: 100px;
+    top: 20px;
+    left: 30px;
+    font: 400 14px/25px "microsoft yahei";
+}
+.t-icon-p p {
+    color: #333;
+}
+.t-hotsale-con-r .t-icon-img {
+    position: absolute;
+    width: 160px;
+    bottom: 10px;
+    right: 30px;
+}
+.t-icon-img img{
+    width: 90%;
+}
+.t-hotsale-con-r .t-icons {
+    width: 395px !important;
+    height: 253px !important;
+    border: 0 !important;
+}
+.t-hotsale-con-r .t-icons img {
+    width: 100%;
+}
+.t-icon-a {
+    width: 390px !important;
+}
+.t-hotsale-con-r a,.t-hotsale-con-l a {
+    position: relative;
+}
+.t-hotsale-con-r a span,.t-hotsale-con-l a span {
+    color:#fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.t-hotsale-con-l a,.t-hotsale-con-r a{
+    display: block;
+    color: #fff;
+    font: 400 18px/30px "microsoft yahei";
+}
+.t-hotsale-con-l a span {
+    text-align: center;
+    width: 390px;
+    padding-top: 150px;
+    height: 357px;
+    background: rgba(0,0,0,0.5);
+    display: none;
+}
+.t-hotsale-con-r a span {
+    width: 395px;
+    height: 213px;
+    padding-top: 40px;
+    background: rgba(0,0,0,0.5);
+    display: none;
+}
+.t-hotsale-con-l a span hr,.t-hotsale-con-r a span hr {
+    width: 100px;
+    color: #fff;
+}
+/*t-hotsale-end*/
+
+
+/*t-shopping-start*/
+.t-shopping-buts {
+    margin-top: 40px;
+}
+.t-shopping-buts button {
+    width: 220px;
+    height: 45px;
+    position: relative;
+    background-color: #999;
+    color: #fff;
+    font: 700 14px/45px "simsun";
+}
+.t-shopping-buts li {
+    float: left;
+    margin-left: 25px;
+    height: 45px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.t-shopping-buts li:first-child {
+    margin-left: 0;
+}
+.t-shopping-buts li {
+    position: relative;
+}
+.t-shopping-buts li div {
+    position: absolute;
+    bottom: -45px;
+    width: 212px;
+    height: 37px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    font: 700 17px/37px "simsun";
+    padding: 4px;
+}
+.t-shopping-buts li div span {
+    display: inline-block;
+    width: 210px;
+    height: 35px;
+    border: 1px solid #fff;
+}
+.t-shopping-b {
+    margin-top: 15px;
+}
+.t-shopping-b img{
+    width: 1200px;
+}
+.t-shopping-con {
+    margin-top: 15px;
+    height: 370px;
+    overflow: hidden;
+    position: relative;
+}
+.t-shopping-con .t-shopping-con-ul {
+    width: 6001px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.t-shopping-con .t-shopping-con-ul .t-shopping-con-li {
+    float: left;
+}
+.shopping-con-l {
+    width: 278px;
+    height: 368px;
+    border: 1px solid #ccc;
+    float: left;
+}
+.shopping-con-c {
+    width: 390px;
+    height: 370px;
+    margin-left: 10px;
+    float: left;
+}
+.shopping-con-r {
+    width: 520px;
+    height: 370px;
+    float: left;
+}
+.shopping-con-r ul li{
+    width: 248px;
+    height: 178px;
+    float: left;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+.t-lis {
+    margin-top: 10px;
+}
+.t-bao {
+    height: 190px;
+    border-bottom: 1px dashed #ccc;
+}
+.t-bao ul li {
+    width: 129px;
+    height: 35px;
+    float: left;
+    padding-left: 10px;
+}
+.t-bao ul li a {
+    font: 700 13px/35px "simsun";
+    color: #333;
+}
+.t-tab {
+    position: relative;
+    height: 191px;
+    overflow: hidden;
+}
+.t-tab-con {
+    width: 1000px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.t-tab-con ul {
+    float: left;
+    width: 278px;
+}
+.t-tab ul li {
+    width: 100px;
+    float: left;
+    margin-top: 8px;
+    margin-left: 26px;
+}
+.t-tab ul li img {
+    width: 100%;
+}
+.t-tab ol {
+    position: absolute;
+    left: 50%;
+    bottom: 40px;
+    margin-left: -30px;
+}
+.t-tab ol li {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    float: left;
+    border-radius: 100%;
+    background-color: #ccc;
+    cursor: pointer;
+}
+.t-tab .current {
+    background-color: #333;
+}
+/*t-shopping-end*/
+
+
+/*t-flashbuy-start*/
+.t-now-time {
+    margin: 12px 0 5px 0;
+}
+.t-now-time p {
+    font: 600 14px/20px "microsoft yahei";
+}
+.t-price span {
+    display: inline-block;
+    width: 80px;
+    height: 25px;
+    background-color: #C81623;
+    color: #fff;
+    line-height: 25px;
+    margin: 8px 0;
+}
+.t-price-in {
+    font: 700 18px/40px "microsoft yahei";
+}
+.t-shopping-t {
+    margin-top: 40px;
+}
+.t-shopping-timer {
+    width: 278px;
+    height: 323px;
+    float: left;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.t-shopping-timer img {
+    width: 60%;
+}
+.t-shopping-tslider {
+    width: 550px;
+    float: left;
+    margin-left: 15px;
+}
+.t-shopping-tslider img {
+    width: 100%;
+}
+.t-shopping-others {
+    width: 340px;
+    height: 325px;
+    float: right;
+}
+.t-shopping-others div {
+    position: relative;
+}
+.t-others {
+    margin-top: 34px;
+}
+.t-others-t, .t-others-b{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 328px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: right;
+    display: none;
+    font: 700 20px/50px "simsun";
+}
+
+/*t-flashbuy-end*/
+
+
+/*t-promot-start*/
+.t-promot {
+    margin-bottom: 50px;
+}
+.t-promot-t {
+    margin-top: 40px;
+}
+.t-promot-t a,.t-promot-m a {
+    float: left;
+}
+.t-promot-m {
+    padding: 8px 0;
+}
+.t-promot-b a {
+    float: right;
+    width: 598px;
+}
+.t-bind {
+    width: 598px;
+    float: left;
+}
+.t-promot-b .t-bind li {
+    width: 192px;
+    height: 63px;
+    float: left;
+    border: 1px solid #ccc;
+    margin-top: 4px;
+}
+.t-promot-b .t-bind li a {
+    width: 100%;
+}
+.t-a-imgs {
+    position: relative;
+}
+.t-a-imgs span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 293px;
+    height: 233px;
+    background: rgba(0,0,0,0.5);
+    display: none;
+    text-align: center;
+    font: 700 25px/50px "microsoft yahei";
+    color:#fff;
+    padding-top: 60px;
+}
+/*t-promot-end*/
+

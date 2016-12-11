@@ -1,0 +1,348 @@
+/* 广告区 start-*/
+
+.j-mwrap {
+    margin: 20px auto;
+}
+
+.j-mwrap-ad {
+    width: 100%;
+    overflow: hidden;
+}
+
+.j-mwrap-ad ul {
+    width: 10000px;
+}
+
+.j-mwrap-ad ul li {
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.j-mwrap-ad span {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 400px;
+    height: 140px;
+    padding-top: 60px;
+    text-align: center;
+    font: bold 16px/30px "simsun";
+    color: #FFFFFF;
+    display: none;
+    background: rgba(0, 0, 0, .7);
+}
+
+.j-mwrap-ad span i {
+    display: block;
+    width: 100px;
+    height: 30px;
+    margin: 10px auto;
+    border: 1px solid #FFFFFF;
+    line-height: 30px;
+}
+
+/* 广告区 end-*/
+
+/* 搜索区 start-*/
+
+.j-mwrap-searchbox {
+    margin: 40px auto 30px;
+    width: 100%;
+    height: 40px;
+    position: relative;
+}
+
+.js-put {
+    float: left;
+}
+
+.jsp-citybox {
+    display: none;
+    width: 1198px;
+    height: 210px;
+    border: 1px solid #000;
+    margin-top: 18px;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    z-index: 10;
+    background-color: #fff;
+}
+.jsb-brandbox{
+    display: none;
+    width: 1198px;
+    height: 210px;
+    border: 1px solid #000;
+    margin-top: 18px;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    z-index: 10;
+    background-color: #fff;
+}
+.jsp-citybox span img {
+    position: absolute;
+    top: -19px;
+    left: 85px;
+}
+.jsb-brandbox span img{
+    position: absolute;
+    top: -19px;
+    left: 290px;
+}
+.jsp-citybox .jspc-box,.jsb-brandbox .jsbb-box {
+    height: 50px;
+    line-height: 50px;
+    background-color: #F2F2F2;
+}
+
+.jspc-box ul,.jsbb-box ul {
+    width: 1200px;
+    /*margin-left: 1px;*/
+}
+
+.jspc-box ul li,.jsbb-box ul li {
+    float: left;
+    height: 50px;
+    padding: 0 20px;
+}
+
+.jspc-box ul a,.jsbb-box ul a {
+    display: block;
+    margin-top: 15px;
+    line-height: 20px;
+    color: #000000;
+}
+.jspc-box ul span{
+    display: block;
+    background-color: #000000;
+    height: 2px;
+}
+.jspc-cbox ul,.jsbb-cbox ul{
+    height: 140px;
+    margin-top: 10px;
+    padding: 5px 18px;
+    overflow: auto;
+}
+
+.jspc-cbox ul li,.jsbb-cbox ul li {
+    float: left;
+    width: 190px;
+    height: 30px;
+}
+
+.js-brand {
+    float: left;
+}
+
+.js-put span, .js-brand span {
+    display: inline-block;
+    width: 200px;
+    height: 38px;
+    border: 1px solid #bcbcbc;
+    color: #bcbcbc;
+    border-right: 0px;
+    text-align: center;
+    font: normal 14px/38px "microsoft yahei";
+    cursor: pointer;
+}
+
+.js-button {
+    width: 85px;
+    height: 40px;
+    float: left;
+    font: normal 14px "microsoft yahei";
+    background-color: #533f34;
+    text-align: center;
+    line-height: 40px;
+    color: #ffffff;;
+    cursor: pointer;
+}
+
+/* 搜索区 start-*/
+/*门店列表区 start*/
+.j-mwrap-recommend {
+    width: 100%;
+    height: 43px;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.jr-hot-list {
+    margin-top: 10px;
+    padding: 9px;
+    background-color: #f2f2f2;
+}
+
+.jrl-rec {
+    color: #d00000;
+}
+
+/*门店列表区 end*/
+/*门店图片区 start*/
+
+.j-mwrap-shopping {
+    overflow: hidden;
+    display: block;
+}
+
+.j-mwrap-shopping ul {
+    width: 1300px;
+}
+
+.j-mwrap-shopping ul li {
+    width: 289px;
+    height: 417px;
+    float: left;
+    padding-right: 18px;
+    display: inline-block;
+}
+
+.jms-item {
+    width: 289px;
+    box-shadow: 3px 3px 5px #ccc;
+    position: relative;
+}
+
+.jms-item .jsmi-top {
+    height: 289px;
+    position: relative;
+    overflow: hidden;
+}
+
+.jsmi-top {
+    display: block;
+    /*display: none;*/
+}
+
+.jsmi-top img {
+    width: 289px;
+}
+
+.jsmit-txt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 289px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.jsmi-top .jsmit-txt span {
+    background: #ffffff;
+    width: 289px;
+    height: 40px;
+    display: block;
+    opacity: 0.85;
+}
+
+.jsmi-top .jsmit-txt dl {
+    width: 289px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+.jsmit-txt dl dt {
+    width: 100%;
+    height: 40px;
+    display: block;
+    text-align: center;
+}
+
+.jsmit-txt dl img {
+    width: 79px;
+    height: 40px;
+    vertical-align: middle;
+}
+
+.jsmi-bottom {
+    height: 110px;
+    position: relative;
+    overflow: hidden;
+}
+
+.over-bottom {
+    background-color: #efefef;
+}
+
+/*.over-bottom span {*/
+/*color: orangered;*/
+/*}*/
+
+.jsmi-bottom-brand {
+    display: block;
+    margin-top: 25px;
+    height: 22px;
+    font: 500 13px/22px "microsoft yahei";
+    text-align: center;
+    /*color: #000000;*/
+}
+
+.jsmi-bottom-txt {
+    display: block;
+    height: 22px;
+    font: 500 13px/22px "microsoft yahei";
+    text-align: center;
+    /*color: #000000;*/
+}
+
+.jsmi-bottom-last {
+    margin-top: 10px;
+    padding-left: 20px;
+    display: block;
+    width: 100%;
+}
+
+.jsmi-top-over {
+    height: 289px;
+    position: relative;
+    overflow: hidden;
+    display: none;
+}
+
+.jsmi-top-over .imgbox {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.jsmi-top-over .address {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 14px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.jsmi-top-over .city {
+    text-align: center;
+    padding-top: 5px;
+    line-height: 35px;
+    font-size: 14px;
+    color: #000000;
+}
+
+.jsmi-top-over .more {
+    height: 30px;
+    padding-top: 20px;
+}
+
+.more-button {
+    background: #533f34;
+    display: block;
+    width: 100px;
+    height: 25px;
+    line-height: 25px;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 3px;
+    margin: 0 auto;
+}
+
+/*门店图片区 start*/
